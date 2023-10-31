@@ -1,4 +1,4 @@
-module Main exposing (main)
+module Lesson1 exposing (main)
 
 import GraphicSVG exposing (..)
 import GraphicSVG.EllieApp exposing (GetKeyState,gameApp)
@@ -27,7 +27,7 @@ myShapes model = [
     ]
 
 view model =
-    collage 500 500 (myShapes model)
+    collage 320 240 (myShapes model)
 
 main =
     gameApp
